@@ -1,0 +1,10 @@
+*, *::before, *::after { 
+    box-sizing: border-box; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+h1 { 
+    font-size: 2rem; margin: 0; padding: 1rem;
+}
+a, a:visited, a:active { 
+    text-decoration: none;
+}
