@@ -19,9 +19,9 @@ h1 {
     padding: 1rem;
     text-align: center;
 }
-a, a:visited, a:active { 
+/* a, a:visited, a:active { 
     text-decoration: none;
-}
+} */
 /* how did this get here, what does it do? */
 #layoutparent {
     position: relative;
