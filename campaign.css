@@ -1,0 +1,25 @@
+*, *::before, *::after { 
+    box-sizing: border-box; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+#layoutparent {
+    position: relative;
+    width: fit-content;
+    margin: 2rem auto 2rem auto;
+    /* border: 1px solid magenta; */
+}
+.title {
+    color: rgb(215, 115, 53);
+    text-align: center;
+}
+#campaignimage {
+    display: block;
+    max-width: 100%; height: auto;
+    margin: 2rem auto 2rem auto;
+}
+#campaignselect {
+    position: absolute;
+    width: 15%; height: auto;
+    padding-bottom: 2rem;
+    /* border: 1px solid red; */
+}
