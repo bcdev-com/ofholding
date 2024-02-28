@@ -1,0 +1,12 @@
+*, *::before, *::after { 
+    box-sizing: border-box; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+body {
+    background-color: rgb(110, 97, 118);
+}
+#calendar {
+    display: block;
+    width: 100%; max-width: 800px; height: 600px;
+    margin: 0 auto;
+}
