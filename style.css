@@ -1,12 +1,23 @@
 *, *::before, *::after { 
     box-sizing: border-box; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    background-color: darkolivegreen;
-    color: cornsilk;
+    /* background-color: rgb(196, 37, 37); */
+    background-color: rgb(32, 32, 31);
+    /* color: rgb(255, 255, 255); */
+    color: rgb(200, 129, 74);
 }
 h1 { 
-    font-size: 2rem; margin: 0; padding: 1rem;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
 }
 a, a:visited, a:active { 
     text-decoration: none;
+}
+#login {
+    display: block;
+    max-width: 100%; height: auto;
+    margin: 0 auto 4rem auto;
+    /* border: 2px solid white; */
+    /* border-radius: 4rem; */
 }
