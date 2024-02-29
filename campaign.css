@@ -20,78 +20,32 @@
 #campaignselect {
     position: absolute;
     text-align: center;
-    margin-left: 33.33%;
-    /* left: 35%; top: 100%;
-    width: 15%; height: 12%; */
+    margin: 0 auto;
     padding-top: 2rem;
     /* border: 1px solid red; */
 }
-.lostboys {
-    background-image: url(images/carnivalticket2.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: white;
+.imagebutton {
     cursor: pointer;
     border: none;
-    width: 320px; height: 155px;
 }
-.lostboys:hover {
+.imagebutton:hover {
     opacity: 75%;
 }
-.lostboys:active {
+.imagebutton:active {
     opacity: 100%;
     filter: saturate(2);
 }
-.lostboytext {
+.buttontext {
+    text-align: center;
+    margin-top: 0%;
+    padding-bottom: 2rem;
+}
+#lostboytext {
     color: rgb(80, 14, 80);
-    text-align: center;
-    margin-top: 0%;
-    padding-bottom: 2rem;
 }
-.kindertales {
-    background-image: url(images/book2.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: white;
-    cursor: pointer;
-    border: none;
-    width: 320px; height: 220px;
-}
-.kindertales:hover {
-    opacity: 75%;
-}
-.kindertales:active {
-    opacity: 100%;
-    filter: saturate(2);
-}
-.kindertaletext {
+#kindertaletext {
     color: rgb(20, 102, 66);
-    text-align: center;
-    margin-top: 0%;
-    padding-bottom: 2rem;
 }
-.familyheist {
-    background-image: url(images/bestcoins2.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: white;
-    cursor: pointer;
-    border: none;
-    width: 320px; height: 230px;
-}
-.familyheist:hover {
-    opacity: 75%;
-}
-.familyheist:active {
-    opacity: 100%;
-    filter: saturate(2);
-}
-.familytext {
+#familytext {
     color: rgb(126, 104, 16);
-    text-align: center;
-    margin-top: 0%;
-    padding-bottom: 2rem
 }
