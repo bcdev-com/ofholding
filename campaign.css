@@ -4,9 +4,10 @@
 }
 #layoutparent {
     position: relative;
+    width: -moz-fit-content;
     width: fit-content;
     margin: 2rem auto 2rem auto;
-    /* border: 1px solid magenta; */
+    border: 1px solid magenta;
 }
 .title {
     color: rgb(215, 115, 53);
@@ -20,7 +21,6 @@
 #campaignselect {
     position: absolute;
     text-align: center;
-    margin: 0 auto;
     padding-top: 2rem;
     /* border: 1px solid red; */
 }
