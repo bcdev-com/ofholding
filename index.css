@@ -25,6 +25,7 @@ h1 {
 /* how did this get here, what does it do? */
 #layoutparent {
     position: relative;
+    width: -moz-fit-content;
     width: fit-content;
     margin: 02rem auto 2rem auto;
     /* border: 1px solid magenta; */
