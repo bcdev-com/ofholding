@@ -15,12 +15,16 @@ body {
 }
 
 #crane {
-    display: block;
+    display: none;
     position: absolute;
     width: 80vw; height: auto;
     top: 10vw; left: 10vw;
     border: 1vw solid antiquewhite;
     border-radius: 2vw;
+}
+
+#message {
+    display: none;
 }
 
 .crane1 {
@@ -121,7 +125,7 @@ body {
     font-size: 3.6vw;
     text-align: center;
     position: absolute;
-    top: 58vw; left: 22vw;
+    top: 58vw; left: 23vw;
     width: 40vw;
     transform: rotate(18deg);
     /* border: 1px solid magenta; */

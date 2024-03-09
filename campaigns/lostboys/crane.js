@@ -1,3 +1,7 @@
+const cranes = [1,2,4,5,9,6,7,8,10,12,13,14];
+var currentCrane = 0;
+
+const crane = document.getElementById('crane');
 const message = document.getElementById('message');
 const chooseLine = document.getElementById('chooseLine');
 const checkLines = document.getElementById('checkLines');
@@ -11,6 +15,12 @@ async function callAPI(path, method) {
     });
     const result = await response.json();
     if (result.success) {
+        message.style.display = `none`;
+        crane.setAttribute('src', `/images/cranes/crane (${cranes[currentCrane]}).png`);
+        crane.style.display = 'block';
+        message.className = `crane${cranes[currentCrane]}`;
+        setTimeout(() => message.style.display = 'block', 300);
+        currentCrane = (currentCrane + 1) % cranes.length;
         message.innerText = result.text;
     } else {
         alert(`Unexpected error: ${result.text}`);
