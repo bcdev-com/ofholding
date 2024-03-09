@@ -19,7 +19,7 @@ async function callAPI(path, method) {
         crane.setAttribute('src', `/images/cranes/crane (${cranes[currentCrane]}).png`);
         crane.style.display = 'block';
         message.className = `crane${cranes[currentCrane]}`;
-        setTimeout(() => message.style.display = 'block', 300);
+        setTimeout(() => message.style.display = 'block', 500);
         currentCrane = (currentCrane + 1) % cranes.length;
         message.innerText = result.text;
     } else {
