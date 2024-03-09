@@ -7,6 +7,10 @@ const chooseLine = document.getElementById('chooseLine');
 const checkLines = document.getElementById('checkLines');
 const resetLines = document.getElementById('resetLines');
 
+crane.addEventListener('load', async e => {
+    message.style.display ='block';
+});
+
 async function callAPI(path, method) {
     const response = await fetch(`https://foo.fly.dev/${path}/thelostboys`, {
         cache: 'no-store',
@@ -19,7 +23,7 @@ async function callAPI(path, method) {
         crane.setAttribute('src', `/images/cranes/crane (${cranes[currentCrane]}).png`);
         crane.style.display = 'block';
         message.className = `crane${cranes[currentCrane]}`;
-        setTimeout(() => message.style.display = 'block', 500);
+        // setTimeout(() => message.style.display = 'block', 500);
         currentCrane = (currentCrane + 1) % cranes.length;
         message.innerText = result.text;
     } else {
